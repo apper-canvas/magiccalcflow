@@ -1,0 +1,32 @@
+[
+  {
+    "Id": 1,
+    "expression": "2 + 2",
+    "result": "4",
+    "timestamp": 1704067200000
+  },
+  {
+    "Id": 2,
+    "expression": "10 - 3",
+    "result": "7",
+    "timestamp": 1704067260000
+  },
+  {
+    "Id": 3,
+    "expression": "5 × 6",
+    "result": "30",
+    "timestamp": 1704067320000
+  },
+  {
+    "Id": 4,
+    "expression": "100 ÷ 4",
+    "result": "25",
+    "timestamp": 1704067380000
+  },
+  {
+    "Id": 5,
+    "expression": "15.5 + 4.5",
+    "result": "20",
+    "timestamp": 1704067440000
+  }
+]
