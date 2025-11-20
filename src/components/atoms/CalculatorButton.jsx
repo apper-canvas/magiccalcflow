@@ -26,15 +26,11 @@ const CalculatorButton = ({
     wide: "h-14 text-lg rounded-xl col-span-2"
   }
 
-  const handleClick = (e) => {
+const handleClick = (e) => {
     if (disabled) return
     
-    // Add press animation
-    e.currentTarget.style.transform = "scale(0.95)"
-    setTimeout(() => {
-      e.currentTarget.style.transform = "scale(1)"
-    }, 100)
-    
+    // Framer Motion handles animation via whileTap prop
+    // No manual DOM manipulation needed
     onClick?.(e)
   }
 
